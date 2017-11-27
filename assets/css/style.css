@@ -1,0 +1,153 @@
+body {
+  color: #777777;
+  background-image: url("../images/concrete_seamless.png");
+  font-size: 24px;
+  line-height: 32px;
+}
+
+li a {
+  font-size: 14px;
+  text-align: center;
+}
+.navbar-brand {
+  background-color: #4aaaa5;
+  color: #ffffff;
+  font-family: 'Georgia';
+  font-size: 28px;
+}
+
+.navbar {
+  background-color: white;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+
+.body-font {
+  font-family: 'Arial';
+  font-size: 16px;
+}
+
+.padding {
+  padding: 20px;
+}
+
+h2 {
+  font-family: "Georgia";
+  color: #4aaaa5;
+}
+
+h3 {
+  font-family: "Georgia";
+  color: #4aaaa5;
+}
+
+
+.content {
+  min-height: calc(100vh - 147px);
+}
+
+footer {
+  background-color: #666666;
+  font-family: "Arial";
+  color: #ffffff;
+  border-style: solid none none none;
+  border-top-color: #4aaaa5;
+  text-align: center;
+  padding: 20px;
+  font-size: 12px;
+  margin: 0px;
+
+}
+
+
+
+.panel > .panel-heading {
+    background-image: none;
+    background-color: white;
+    font-family: "Georgia";
+    color: #4aaaa5;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 35%;
+  height: auto;
+  padding-right: 25px;
+}
+
+.img-thumbnail {
+  border: none;
+}
+
+.panel-body {
+  padding-left: 0px;
+  padding-right: 0px;
+  text-align: center;
+}
+
+.panel-title {
+  text-align: center;
+}
+
+.project-name {
+  float: left;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  text-align: center;
+  font-size: 24px;
+  font-family: "serif";
+  position: relative;
+  margin-top: -80px;
+  margin-bottom: 50px;
+  height: 70px;
+  width: 100%;
+  line-height: 70px;
+}
+
+
+.portfolio-pics {
+  float:left;
+  width: 100%;
+}
+
+form {
+  font-family: 'Arial';
+  font-size: 16px;
+  color: #777777;
+  text-align: left;
+  padding-bottom: 25px;
+}
+
+input::placeholder {
+  color: #7777778c;
+}
+
+input::focus {
+  color:#4aaaa5;;
+}
+
+input[type=submit] {
+  background-color: #4aaaa5;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Arial';
+  margin-top:15px;
+  width:110px;
+  height:40px;
+  font-size:18px;
+  border-radius: 0px;
+}
+
+input {
+  width:100%;
+  padding: 5px;
+  font-size: 14px;
+  /*resize: height;*/
+}
+
+#message {
+  width: 100%;
+  text-align: left;
+  font-size: 14px;
+}
